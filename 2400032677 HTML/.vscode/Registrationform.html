@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        fieldset{
+            max-width: 500px;
+            margin: 40px 300px 100px;
+            padding: auto;
+            background-color: pink;
+            border-radius: 20px;
+        }
+        body{
+           background-color: rgb(187, 209, 209);
+        }
+        button{
+            width: 100%;
+            background-color: rgb(157, 207, 207);
+            border-radius: 20px;
+        }
+        button:hover{
+            color:rgb(7, 206, 34);
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">STUDENT REGISTRATION FORM</h2>
+    <form action="https://fonts.google.com/">
+        <fieldset>
+        <h3>PERSONAL INFORMATION    </h3>
+       
+        <label for="fn">FullName:</label><br>
+        <input type="text" id="fn" placeholder="Enter your name" required>
+        <br>
+        
+        <label for="gn">Gender:</label><br>
+         <input type="radio" name="gn" value="m" >Male <!--VALUE IS USE FOR CONNECT TO BACKEND to store with some reference-->
+        <input type="radio" name="gn" value="f">Female
+      <br>
+        
+        <label for="em">Email:</label><br>
+         <input type="email" id="em" placeholder="Enter your Email" required>
+        <br>
+       
+         <label for="con"> Contect:</label><br>
+        <input type="tel"id="con" pattern=[0-9]{10} placeholder="Enter your contect number" required>
+        <br>
+       
+        <label>Date of Birth:</label><br>
+         <input type="date" required>
+        <br>
+         
+         <laber>Address:</laber><br>
+         <textarea rows="4" placeholder="Enter your address" required>
+
+            </textarea>
+       
+        <h3>ACADEMIC DETAILS</h3>
+         <label>Branch:</label><br>
+        <select>
+            <option value="">--select--</option>
+            <option value="cse">Computor Engineering</option>
+            <option value="ece">Electronics Engineering</option>
+            <option value="eee">Electical Engineering</option>
+            <option value="me">MACHANICAL Engineering</option>
+        </select><br><br>
+       <label> Language Known:</label> <br>
+        <input type="checkbox" name="cb" value="english">English
+        <input type="checkbox" name="cb" value="hindi">Hindi
+        <input type="checkbox" name="cb" value="bhojpuri">Bhojpuri
+        <input type="checkbox" name="cb" value="telugu">Telugu
+        <br><br>
+        <label>Upload Resume:</label><br>
+        <input type="file"><br><br>
+        <button>Submit</button>
+        <button>Clear</button>
+        </fieldset>
+
+
+
+    </form>
+</body>
+</html>               

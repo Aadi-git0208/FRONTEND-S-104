@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Login Page</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            display: grid;
+            grid-row: 30% 30%;
+            grid-column: 40% 40%;
+            height: 80vh;
+            text-align: center;
+        }
+        .cn{
+            background-color: rgb(162, 207, 207);
+            grid-row: 1/2;
+            grid-column: 1/2;
+            height: 57vh;
+            margin: 15% 8% 7% 40%;
+            border-radius: 20px;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .he{
+            background-color:violet;
+            display: flex;
+            grid-row: 1/2;
+            grid-column: 2/3;
+            height: 57vh;
+            margin: 21% 53% -1% -18% ;
+            text-align: center;
+            border-radius: 30px;
+            justify-content: center;
+            align-items: center;
+            font-weight:bold;
+            
+        }
+        .cn button{
+            background-color: violet;
+            border-radius: 20px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+  
+    <div class="cn">Create new account<br><br>
+        
+            <label for="un"></label>
+            <input type="text" placeholder="Enter your name" required>
+            <br><br>
+            <label for="em" ></label>
+            <input type="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="pass"></label>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="checkbox" required>
+            <label>I agree all the term & condition</label><br><br>
+            <button>CREATE ACCOUNT</button>
+            
+    </div>
+    <div class="he">HELLO!
+        
+    </div>
+</div>
+
+    
+</body>
+</html>

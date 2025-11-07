@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Problem 3 </title>
+    <style>
+        .container{
+            display: grid;
+            grid-row: 10% 30% 50% 10%;
+            grid-column: 25% 25% 25% 25%;
+            height: 100vh;
+        }
+        .hd{
+            background-color: aqua;
+            grid-row: 1/2;
+            grid-column: 1/5;
+            height: 10vh;
+            text-align: center;
+            font-weight: bold;
+        }
+        .hd img{
+            height: 20px;
+            margin: 10px;
+        }
+        .sb1{
+            background-color: aquamarine;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            height: 30vh;
+        }
+        .sb2{
+            background-color: blue;
+            grid-row: 2/3;
+            grid-column: 2/3;
+            height: 30vh;
+        }
+        .sb3{
+            background-color: cadetblue;
+            grid-row: 2/3;
+            grid-column: 3/4;
+            height: 30vh;
+        }
+        .mc{
+            background-color: chartreuse;
+            grid-row: 3/4;
+            grid-column: 1/4;
+            height: 50vh;
+        }
+        .si{
+            background-color: bisque;
+            grid-row: 2/4;
+            grid-column: 4/5;
+            height: 80vh;
+        }
+        .ft{
+            background-color: cornflowerblue;
+            grid-row: 4/5;
+            grid-column:1/5 ;
+            height: 10vh;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hd"> <img src="Kl.jpg" alt="">KL UNIVERSITY
+           
+        </div>
+        <div class="sb1">SMALL BOX1</div>
+        <div class="sb2">SMALL BOX2</div>
+        <div class="sb3">SMALL BOX3</div>
+        <div class="mc">MAIN CONTENT</div>
+        <div class="si">SIDE BAR</div>
+        <div class="ft">FOOTER</div>
+    </div>
+    
+</body>
+</html>
